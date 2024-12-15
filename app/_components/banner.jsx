@@ -14,7 +14,7 @@ function Banner() {
             className=" absolute left-0 bottom-0 "
           />
         </div>
-        <div className="text-[#184363] p-4 absolute left-[38%] right-[50%] w-[400px] text-center">
+        <div className="text-[#184363] p-4 w-full text-center">
           <h6 className="text-lg mb-2 sm:mb-4">Pyridoxine Vitamin B6</h6>
           <h4 className="text-2xl sm:text-3xl font-semibold mb-1">Vitamins & Supplements</h4>
         </div>

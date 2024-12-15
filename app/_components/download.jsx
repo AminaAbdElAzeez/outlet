@@ -14,21 +14,21 @@ function Download() {
           <p className="text-white opacity-[0.9] font-light text-[16px] sm:text-lg md:text-xl lg:text-xl xl:text-2xl mb-[10px] sm:mb-[20px]">
             Register and start ordering in <br /> less than 2 minutes.
           </p>
-          <div className="flex justify-center md:justify-start items-center gap-[10px] flex-wrap">
-            <div className="relative w-[100px] aspect-[3/1]">
+          <div className="flex justify-center md:justify-start items-center">
+            <div className="relative w-[100%] aspect-[3/1] mr-2">
               <Image
                 src={image1}
                 alt="Play Store"
-                layout="fill"
                 objectFit="contain"
+                
               />
             </div>
-            <div className="relative w-[100px] aspect-[3/1]">
+            <div className="relative w-[100%] aspect-[3/1]">
               <Image
                 src={image2}
                 alt="Apple Store"
-                layout="fill"
                 objectFit="contain"
+                
               />
             </div>
           </div>
